@@ -1,4 +1,16 @@
-/*Css reset*/
+/*
+* Cascading style sheet for shiwaforce
+*
+* TABLE OF CONTENTS
+*
+* 0. Reset CSS, HTML formats
+* 1. Header, navigation
+* 2. Main content block, body
+* 3. Elements, plugins, icons
+* 4. Footer
+*/
+
+/* 0. Reset CSS, HTML formats*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,3 +54,47 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+:root{
+
+	--header-black:#1c1c1c;
+	--main-titles-color:#ffffff;
+	--bg-color:#cdcdcd;
+	}
+
+/* 1. Header, navigation*/
+
+.nav{}
+.logo{}
+span.main-logo-text{}
+span.sub-logo-text{}
+.searchbox-container{}
+.searchbox-container input[type="text"]{}
+.searchBtn{}
+
+#header{}
+.header-bg{}
+span.header-bg-main-title{}
+span.header-bg-subtitle{}
+
+/* 2. Main content block, body*/
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+
+.box-container{}
+.box{}
+.box:hover{}
+.flare{}
+
+.greybox{}
+p.greybox-text{}
+
+.bottom-icon-bar{}
+
+/* 3. Elements, plugins, icons*/
+
+/* 4. Footer */

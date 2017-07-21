@@ -60,17 +60,55 @@ table {
 	--header-black:#1c1c1c;
 	--main-titles-color:#ffffff;
 	--bg-color:#cdcdcd;
+	--main-titles-font: 'Cambo', serif;
 	}
+
+body{
+	font-size: 12px;
+	font-family: arial;
+}
 
 /* 1. Header, navigation*/
 
-.nav{}
-.logo{}
-span.main-logo-text{}
-span.sub-logo-text{}
-.searchbox-container{}
-.searchbox-container input[type="text"]{}
-.searchBtn{}
+.nav{
+	position: absolute;
+	min-height: 20%;
+    background: var(--header-black);
+    width: 100%;
+}
+.logo{
+	color: var(--main-titles-color);
+    float: left;
+    margin: 5% 0 0 10%;
+}
+span.main-logo-text{
+	font-family: var(--main-titles-font);
+    font-size: 45px;
+    text-shadow: 0px 0px 5px rgba(255,255,255,0.29);
+}
+span.sub-logo-text{
+	color: #828282;
+    position: relative;
+    display: block;
+    font-family: arial;
+    font-size: 12px;
+}
+.searchbox-container{
+	float: right;
+	margin: 2% 10% 0 0;
+}
+.searchbox-container input[type="text"]{
+	background: var(--header-black);
+    border: 1px solid #2c2c2c;
+    padding: 7px;
+}
+.searchBtn{
+	background: #3e3e3e;
+    border: none;
+    color: #fff;
+    padding: 7px;
+    border-radius: 6px;
+}
 
 #header{}
 .header-bg{}
